@@ -1,0 +1,10 @@
+# Automated ML results (KNN only)
+
+- Job name: knn-automl-zeenat-v2
+- Best algorithm (scaler + model): RobustScaler + KNN
+- n_neighbors: 47
+- weights: uniform
+- AUC weighted: 0.9397130
+- Test recall (failure class): 0.03321
+- Test F1 (failure class): 0.06429
+- Observation: AutoML selected a RobustScaler + KNN pipeline with Manhattan distance, 47 neighbors, and uniform weights. AutoML explored different scalers, distance metrics, neighbor counts, and weighting strategies.
