@@ -223,3 +223,12 @@ mlruns/
 model_local/
 *.key
 .amlignore
+
+# Azure ML temporary files
+*.amltmp
+.ipynb_aml_checkpoints/
+**/.ipynb_aml_checkpoints/
+model_check/
+notebooks/model_check/
+notebooks/deployment/
+sample_request.json
